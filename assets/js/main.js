@@ -1,4 +1,4 @@
-
+//funzione al click del pulsante genera
 function myFunction() {
     let elementName = document.getElementById("inputName").value;
     document.getElementById("Passenger_name").innerHTML = elementName;
@@ -13,7 +13,8 @@ function myFunction() {
         // if the distance is negative
         alert('La distanza non puo essere inferiore a 0')
     }
-    
+
+    //seltettore età
     let age_selection = document.getElementById("FormControlSelect").value;
 
     const price_Per_Km = 0.21;
