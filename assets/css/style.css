@@ -14,6 +14,10 @@ body{
 .bnt_light_grey{
     background-color: lightgray;
 }
+
+.bg_light_grey{
+    background-color: rgb(189, 189, 189);
+}
 .rounded_my{
     border-radius: 16px;
     filter: drop-shadow(2px 2px 4px black);
